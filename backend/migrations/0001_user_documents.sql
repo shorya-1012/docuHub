@@ -1,0 +1,7 @@
+CREATE TABLE user_documents (
+    id  VARCHAR(255) PRIMARY KEY NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    type VARCHAR(10) NOT NULL,
+    description VARCHAR(255) NOT NULL,
+    userId VARCHAR(255) NOT NULL
+)
